@@ -7,14 +7,17 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
-        return str
+    return str
   }
 
   function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
-      return x + y;
+    return x + y
+
+    
+
   }
   
   function resta(x, y) {
@@ -26,23 +29,23 @@ function devolverString(str) {
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
-      return x * y;
+      return x * y
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-      return x / y;
+      return x / y
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(x===y){
-      return true
+  if(x === y) {
+    return true
 
-    }
+  }
     else 
     return false
       
@@ -53,8 +56,8 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(str1.length === str2.length){
-      return true
+  if(str1.length === str2.length){
+    return true
     }
     else{
       return false
@@ -96,10 +99,10 @@ function devolverString(str) {
     // De lo contrario, devuelve "false"
     // Tu código:
     if(num % 2 === 0){
-      return false
+      return true
     }
     else{
-      return true
+      return false
     }
   }
   
@@ -172,9 +175,6 @@ function devolverString(str) {
       return false
     }
       
-    
-  
-  
   function agregarSimboloExclamacion(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
@@ -200,21 +200,22 @@ function devolverString(str) {
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
-    return 4 * lado
+    return alto * ancho
 
   }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
-    return (base * altura) / 2
+    return 4 * lado
   }
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
+    return(base * altura) / 2
   }
-  
+
   function deEuroAdolar(euro) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
