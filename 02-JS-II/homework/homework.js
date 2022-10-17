@@ -3,10 +3,10 @@
 // Asegúrate que usas "return" cuando la consola te lo pida.
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
-
-function devolverString(str) {
-    // "Return" la string provista: str
-    // Tu código:
+  
+  function devolverString(str) {
+      // "Return" la string provista: str
+      // Tu código:
     return str
   }
 
@@ -23,19 +23,19 @@ function devolverString(str) {
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
-      return x - y;
+    return x - y;
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
-      return x * y
+    return x * y
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-      return x / y
+    return x / y
   }
   
   function sonIguales(x, y) {
@@ -119,9 +119,11 @@ function devolverString(str) {
   }
   
   function elevarAlCuadrado(num) {
+
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
+
     return Math.pow(num,2)
 
   }
