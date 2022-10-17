@@ -14,23 +14,49 @@ function encuentraPares(array){
   // Devuelve un arreglo con los pares encontrados
   // en el arreglo de enteros pasado como parámetro
   // Tu código:
+  var resultado = []
+  var indice = 0;
+  while (indice < array.length){
+    if (array[indice] % 2 === 0) {
+      resultado.push(array[indice]);
+    }
+    indice++;
+  }
+  return resultado;
+  
 }
 
 function elevaAlCuadrado(array){
   // Devuelve un arreglo con cada número del array
   // elevado al cuadrado
   // Tu código:
-}
+  // [ 2, 3, 4, 5]
+  // [ 4, 9, 16 25]
+  var alCuadrado = function
+
+
+  }
 
 function sumaArray(array){
   // Devuelve el resultado de sumar todos los elementos
   // de un arreglo de enteros dado
   // Tu código:
+  var resultado = array.reduce(function (acumulador, num){
+    return acumulador + num;
+
+  }, 0)
+  return resultado;
 }
 
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
   // Tu código:
+  // 100 -> 3
+  // 10 + a -> 10a
+  // 100 +"" -> "100"
+  var numeroAString = num + "";
+  return numeroAString.length;
+
 }
   
   
